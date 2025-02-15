@@ -1,0 +1,46 @@
+#mainContainer > .container {
+  flex: 1;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+#pathInput,
+#methodInput,
+#sendRequestButton {
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+#bodyInput {
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  line-height: 22px;
+  resize: none;
+  flex: 1;
+}
+
+#sendRequestButton {
+  margin-top: 20px;
+}
+
+#responseStatus,
+#responseStatusText,
+#responseContentType {
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+#responseBody {
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  line-height: 22px;
+  resize: none;
+  flex: 1;
+  overflow: scroll;
+}
